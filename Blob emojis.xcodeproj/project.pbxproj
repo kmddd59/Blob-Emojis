@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB725701F2C1D6E00B10D1A /* Blob emojis StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AAB7256F1F2C1D6E00B10D1A /* Blob emojis StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AAB725741F2C1D6F00B10D1A /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AAB725731F2C1D6E00B10D1A /* Stickers.xcstickers */; };
+		AAB725751F2C1D6F00B10D1A /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = AAB725731F2C1D6E00B10D1A /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAB725711F2C1D6E00B10D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAB725651F2C1D6E00B10D1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAB7256E1F2C1D6E00B10D1A;
+			remoteInfo = "Blob emojis StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAB7257B1F2C1D6F00B10D1A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AAB725701F2C1D6E00B10D1A /* Blob emojis StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAB7256B1F2C1D6E00B10D1A /* Blob emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blob emojis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB7256F1F2C1D6E00B10D1A /* Blob emojis StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Blob emojis StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB725731F2C1D6E00B10D1A /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "Blob emojis StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		AAB725641F2C1D6E00B10D1A = {
+			isa = PBXGroup;
+			children = (
+				AAB725731F2C1D6E00B10D1A /* Stickers.xcstickers */,
+				AAB7256C1F2C1D6E00B10D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAB7256C1F2C1D6E00B10D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7256B1F2C1D6E00B10D1A /* Blob emojis.app */,
+				AAB7256F1F2C1D6E00B10D1A /* Blob emojis StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAB7256A1F2C1D6E00B10D1A /* Blob emojis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB7257C1F2C1D6F00B10D1A /* Build configuration list for PBXNativeTarget "Blob emojis" */;
+			buildPhases = (
+				AAB725691F2C1D6E00B10D1A /* Resources */,
+				AAB7257B1F2C1D6F00B10D1A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAB725721F2C1D6E00B10D1A /* PBXTargetDependency */,
+			);
+			name = "Blob emojis";
+			productName = "Blob emojis";
+			productReference = AAB7256B1F2C1D6E00B10D1A /* Blob emojis.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		AAB7256E1F2C1D6E00B10D1A /* Blob emojis StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAB725781F2C1D6F00B10D1A /* Build configuration list for PBXNativeTarget "Blob emojis StickerPackExtension" */;
+			buildPhases = (
+				AAB7256D1F2C1D6E00B10D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blob emojis StickerPackExtension";
+			productName = "Blob emojis StickerPackExtension";
+			productReference = AAB7256F1F2C1D6E00B10D1A /* Blob emojis StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAB725651F2C1D6E00B10D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = kmdu59;
+				TargetAttributes = {
+					AAB7256A1F2C1D6E00B10D1A = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					AAB7256E1F2C1D6E00B10D1A = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = AAB725681F2C1D6E00B10D1A /* Build configuration list for PBXProject "Blob emojis" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAB725641F2C1D6E00B10D1A;
+			productRefGroup = AAB7256C1F2C1D6E00B10D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAB7256A1F2C1D6E00B10D1A /* Blob emojis */,
+				AAB7256E1F2C1D6E00B10D1A /* Blob emojis StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAB725691F2C1D6E00B10D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB725751F2C1D6F00B10D1A /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB7256D1F2C1D6E00B10D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB725741F2C1D6F00B10D1A /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAB725721F2C1D6E00B10D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAB7256E1F2C1D6E00B10D1A /* Blob emojis StickerPackExtension */;
+			targetProxy = AAB725711F2C1D6E00B10D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAB725761F2C1D6F00B10D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAB725771F2C1D6F00B10D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAB725791F2C1D6F00B10D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Blob emojis StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blob-emojis.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB7257A1F2C1D6F00B10D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Blob emojis StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blob-emojis.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAB7257D1F2C1D6F00B10D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Blob emojis/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blob-emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAB7257E1F2C1D6F00B10D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 569B2RRWKG;
+				INFOPLIST_FILE = "Blob emojis/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kmdu59.Blob-emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAB725681F2C1D6E00B10D1A /* Build configuration list for PBXProject "Blob emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB725761F2C1D6F00B10D1A /* Debug */,
+				AAB725771F2C1D6F00B10D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB725781F2C1D6F00B10D1A /* Build configuration list for PBXNativeTarget "Blob emojis StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB725791F2C1D6F00B10D1A /* Debug */,
+				AAB7257A1F2C1D6F00B10D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAB7257C1F2C1D6F00B10D1A /* Build configuration list for PBXNativeTarget "Blob emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAB7257D1F2C1D6F00B10D1A /* Debug */,
+				AAB7257E1F2C1D6F00B10D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAB725651F2C1D6E00B10D1A /* Project object */;
+}
